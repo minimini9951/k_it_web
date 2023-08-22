@@ -1,0 +1,11 @@
+eclipse/
+수업자료/
+sts-4.19.1.RELEASE/
+.metadata/
+.settings/
+*.zip
+*.exe
+*.jar
+*.classpath
+*.project
+*.class
