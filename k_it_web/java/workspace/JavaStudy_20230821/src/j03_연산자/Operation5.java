@@ -32,11 +32,11 @@ public class Operation5 {
 		// 강사 풀이
 		int score2 = 85;
 		String result2 = null;
-		result2 = score < 0 || score > 100 ? "계산불가"
-						: score > 89 ? "A학점"
-						: score > 79 ? "B학점"
-						: score > 69 ? "C학점"
-						: score > 59 ? "D학점"
+		result2 = score < 0 || score2 > 100 ? "계산불가"
+						: score2 > 89 ? "A학점"
+						: score2 > 79 ? "B학점"
+						: score2 > 69 ? "C학점"
+						: score2 > 59 ? "D학점"
 						: "F학점";
 						
 		System.out.println(result2);

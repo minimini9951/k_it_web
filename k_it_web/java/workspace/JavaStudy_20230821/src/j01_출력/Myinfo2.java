@@ -11,6 +11,7 @@ public class Myinfo2 {
 		char name2 = '길';
 		char name3 = '동';
 		
+		System.out.println(flag);
 		System.out.println(name1);
 		System.out.println(name2);
 		System.out.println(name3);
