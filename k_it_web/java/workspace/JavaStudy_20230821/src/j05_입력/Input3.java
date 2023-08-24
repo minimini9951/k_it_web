@@ -31,14 +31,16 @@ public class Input3 {
 		System.out.print("층수: ");
 		floor = scanner.nextInt();
 		
+		scanner.nextLine();
+		
 		System.out.print("거주지: ");
 		address = scanner.nextLine();
 		
 		System.out.print("연락처: ");
 		phone = scanner.nextLine();
 		
-		System.out.println("이름은" + name + "이고 거주지는 " + address + "입니다.");
-		System.out.println("층수는 " + floor + "입니다.");
+		System.out.println("이름은 " + name + " 이고 거주지는 " + address + " 입니다.");
+		System.out.println("층수는 " + floor + "층입니다.");
 		System.out.println("연락처는 " + phone + "입니다.");
 		
 		scanner.close();
