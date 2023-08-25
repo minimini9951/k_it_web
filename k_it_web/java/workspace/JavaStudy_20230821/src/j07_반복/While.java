@@ -1,4 +1,4 @@
-package j06_조건;
+package j07_반복;
 
 public class While {
 

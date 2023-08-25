@@ -1,4 +1,4 @@
-package j06_조건;
+package j07_반복;
 
 import java.util.Scanner;
 
@@ -30,16 +30,16 @@ public class While3 {
 		
 		if(floor1 < floor2) {
 			while(floor1 < floor2) {
-				System.out.println(floor1+1);
+				System.out.println(floor1 + 1);
 				floor1++;
 			}
 			System.out.println("도착했습니다.");
 		} else if(floor1 > floor2) {
 			while(floor1 > floor2) {
-				System.out.println(floor1-1);
+				System.out.println(floor1 - 1);
 				floor1--;
 			}
-			
+			System.out.println("도착했습니다.");
 		} else
 			System.out.println("현재층입니다.");
 		
