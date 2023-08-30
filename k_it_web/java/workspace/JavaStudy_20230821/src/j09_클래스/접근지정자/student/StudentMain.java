@@ -19,6 +19,9 @@ public class StudentMain {
 		 */
 		
 		Student student2 = new Student();
+		
+		student.showInfo();
+		System.out.println(student.getName());
 	}
 
 }
