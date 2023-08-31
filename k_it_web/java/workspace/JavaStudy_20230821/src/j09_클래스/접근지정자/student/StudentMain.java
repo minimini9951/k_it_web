@@ -22,6 +22,8 @@ public class StudentMain {
 		
 		student.showInfo();
 		System.out.println(student.getName());
+		
+		student2.showInfo();
 	}
 
 }
