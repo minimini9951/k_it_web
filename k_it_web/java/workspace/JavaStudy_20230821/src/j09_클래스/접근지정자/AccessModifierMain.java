@@ -18,6 +18,7 @@ public class AccessModifierMain {
 		testA_2.testA2();
 		
 		TestB testB = new TestB();
+		System.out.println(testB);
 		
 		
 	}

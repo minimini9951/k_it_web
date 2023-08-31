@@ -10,7 +10,9 @@ public class StudentMain {
 		 * 홍길동 / 3 / 18 / 부산 동래구 / 010-1234-5678
 		 */
 		
-		Student student = new Student("홍길동", 3, 18, "부산 동래구", "010-1234-5678");
+		Student student1 = new Student("홍길동", 3, 18, "부산 동래구", "010-3300-4698");
+		Student student2 = new Student("오재근", 2, 17, "부산 금정구", "010-1234-5678");
+		Student student3 = new Student("성시원", 1, 16, "부산 진구", "010-1111-2222");
 		
 		/*
 		 * 기본 생성자는 생략이 가능함.
@@ -18,12 +20,12 @@ public class StudentMain {
 		 * 기본 생성자를 사용하려면 꼭 명시를 해줘야 한다.
 		 */
 		
-		Student student2 = new Student();
 		
-		student.showInfo();
-		System.out.println(student.getName());
+		student1.showInfo();
+		System.out.println(student1.getName());
 		
 		student2.showInfo();
+		student3.showInfo();
 	}
 
 }
