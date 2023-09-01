@@ -16,6 +16,20 @@ public class AnimalMain {
 		human.study();
 		
 		human.eat();
+		
+		animal.move();
+		animal.eat();
+		System.out.println();
+		
+		Animal animal1 = new Human();
+		
+		animal1.move();
+		
+		((Human)animal1).study();
+		System.out.println();
+		((Human)animal1).eat();
+		// ((Tiger)animal1).attack();
+		// ((Human)animal).study();
 	}
 
 }
