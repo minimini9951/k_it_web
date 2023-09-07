@@ -1,5 +1,14 @@
 package j15_스태틱.싱글톤;
 
-public class Car {
+import lombok.Builder;
+import lombok.Data;
 
+@Data
+@Builder
+
+public class Car {
+	
+	private int carNumber;
+	private String company;
+	private String model;
 }
