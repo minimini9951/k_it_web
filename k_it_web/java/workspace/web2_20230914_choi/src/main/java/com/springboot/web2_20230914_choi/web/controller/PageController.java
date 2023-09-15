@@ -10,4 +10,15 @@ public class PageController {
 	public String index() {
 		return "hello";
 	}
+	
+	@GetMapping("/login/username")
+	public String login() {
+		return "login";
+	}
+	
+//	@ResponseBody // 데이터 전송용
+//	@GetMapping("api/v1/username")
+//	public String getUsername() {
+//		return "gildong";
+//	}
 }
