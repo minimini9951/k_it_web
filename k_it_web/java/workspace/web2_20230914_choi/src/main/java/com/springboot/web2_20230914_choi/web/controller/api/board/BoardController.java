@@ -19,7 +19,7 @@ public class BoardController {
 	
 	private final BoardService boardService;
 	
-	//게시글 작성
+	// 게시글 작성
 //	@PostMapping("/content")
 //	public ResponseEntity<?> addBoard(String title) {
 //		System.out.println("게시글 작성완료");
